@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-color: #fff;
+   
+}
+
+.container {
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+.notification {
+    border-top: 1px solid #ddd;
+}
+
+.notification-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.date {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.notification-item a {
+    text-decoration: none;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.notification-item .detail {
+    font-size: 14px;
+    color: #555;
+}

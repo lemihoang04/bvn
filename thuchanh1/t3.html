@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function loadForm(formName) {
+            parent.frames['s3'].location = formName;
+        }
+    </script>
+</head>
+
+    <frameset rows="30%,70%">
+        <frame name=s1 src="./s1.html" style="height: auto;">
+        <frameset cols="20%,80%">
+            <frame name=s2 src="./s2.html">
+            <frame name=s3 src="./z1.html">
+        </frameset>    
+    </frameset>     
+
+
+</html>
