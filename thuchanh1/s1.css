@@ -17,10 +17,12 @@
 }
 .nav {
     background-color: #f8f9fa; 
-    text-align: center; 
+    
     border-bottom: 2px solid #ccc; 
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    list-style-type: none;;
 }
 
 .nav a {
@@ -36,6 +38,7 @@
     background-color: #007bff; 
     color: white; 
     border-radius: 5px;
+    cursor: pointer;
     
 }
 
@@ -45,8 +48,8 @@
     font-size: 14px;
     margin: 10px 0;
     padding: 10px;
-    background-color: #f0f0f0; /* Nền xám */
-    border-radius: 5px; /* Bo tròn các góc */
+    background-color: #f0f0f0; 
+    border-radius: 5px; 
 }
 .breadcrumb li {
     margin-right: 5px;
